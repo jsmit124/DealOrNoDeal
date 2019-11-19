@@ -1,0 +1,25 @@
+﻿<ContentDialog
+    x:Class="DealOrNoDeal.View.Dialog.StartSettingDialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Title="SETTINGS"
+    PrimaryButtonText="Accept"
+    IsPrimaryButtonEnabled="false"
+    SecondaryButtonText="Close"
+    PrimaryButtonClick="ContentDialog_PrimaryButtonClick"
+    SecondaryButtonClick="ContentDialog_SecondaryButtonClick">
+
+    <Grid>
+        <ComboBox x:Name="gameTypeComboBox" Margin="0,36,0,0" Width="120" ItemsSource="{x:Bind gameTypes}"
+                  SelectionChanged="ComboBox_SelectionChanged" />
+        <ComboBox x:Name="roundAmountComboBox" Margin="150,36,0,0" Width="120" ItemsSource="{x:Bind roundTypes}"
+                  SelectionChanged="ComboBox_SelectionChanged" />
+        <TextBlock HorizontalAlignment="Left" Margin="26,10,0,0" Text="Game Type" TextWrapping="Wrap"
+                   VerticalAlignment="Top" />
+        <TextBlock HorizontalAlignment="Left" Margin="150,10,0,0" Text="Number of Rounds" TextWrapping="Wrap"
+                   VerticalAlignment="Top" />
+    </Grid>
+</ContentDialog>

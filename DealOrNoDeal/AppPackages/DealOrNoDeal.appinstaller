@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppInstaller
+	Uri="file:///C:/DealOrNoDeal/DealOrNoDeal.appinstaller"
+	Version="1.0.0.0" xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2">
+	<MainBundle
+		Name="53d5f6c6-ecf9-4452-bede-362b1bfa6900"
+		Version="1.0.0.0"
+		Publisher="CN=dyoder"
+		Uri="file:///C:/DealOrNoDeal/DealOrNoDeal_1.0.0.0_Debug_Test/DealOrNoDeal_1.0.0.0_x86_x64_Debug.msixbundle" />
+	<Dependencies>
+		<Package
+			Name="Microsoft.NET.CoreRuntime.2.2"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			Version="2.2.27404.2"
+			ProcessorArchitecture="x86"
+			Uri="file:///C:/DealOrNoDeal/DealOrNoDeal_1.0.0.0_Debug_Test/Dependencies/x86/Microsoft.NET.CoreRuntime.2.2.appx" />
+		<Package
+			Name="Microsoft.NET.CoreRuntime.2.2"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			Version="2.2.27404.2"
+			ProcessorArchitecture="x64"
+			Uri="file:///C:/DealOrNoDeal/DealOrNoDeal_1.0.0.0_Debug_Test/Dependencies/x64/Microsoft.NET.CoreRuntime.2.2.appx" />
+		<Package
+			Name="Microsoft.NET.CoreFramework.Debug.2.2"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			Version="2.2.27505.2"
+			ProcessorArchitecture="x86"
+			Uri="file:///C:/DealOrNoDeal/DealOrNoDeal_1.0.0.0_Debug_Test/Dependencies/x86/Microsoft.NET.CoreFramework.Debug.2.2.appx" />
+		<Package
+			Name="Microsoft.NET.CoreFramework.Debug.2.2"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			Version="2.2.27505.2"
+			ProcessorArchitecture="x64"
+			Uri="file:///C:/DealOrNoDeal/DealOrNoDeal_1.0.0.0_Debug_Test/Dependencies/x64/Microsoft.NET.CoreFramework.Debug.2.2.appx" />
+		<Package
+			Name="Microsoft.VCLibs.140.00.Debug"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			Version="14.0.27323.0"
+			ProcessorArchitecture="x64"
+			Uri="file:///C:/DealOrNoDeal/DealOrNoDeal_1.0.0.0_Debug_Test/Dependencies/x64/Microsoft.VCLibs.x64.Debug.14.00.appx" />
+		<Package
+			Name="Microsoft.VCLibs.140.00.Debug"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			Version="14.0.27323.0"
+			ProcessorArchitecture="x86"
+			Uri="file:///C:/DealOrNoDeal/DealOrNoDeal_1.0.0.0_Debug_Test/Dependencies/x86/Microsoft.VCLibs.x86.Debug.14.00.appx" />
+	</Dependencies>
+	<UpdateSettings>
+		<OnLaunch
+			HoursBetweenUpdateChecks="0" />
+	</UpdateSettings>
+</AppInstaller>

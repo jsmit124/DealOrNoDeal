@@ -1,0 +1,48 @@
+﻿Functionality:
+	Requirement 1: Complete
+	Requirement 2: Complete
+	Requirement 3: Complete
+	Requirement 4: Complete
+	Requirement 5: Complete
+	Requirement 6: Complete
+	Requirement 7: Complete
+
+
+Bugs:
+	Functionality: 
+		None
+
+	CodeStyle: 1 item
+		I chose not to address this issue because it is found in the App.xaml.cs file
+
+	Common Practices and Code Improvements: 5 items
+		App.xaml.cs: I chose not to address these issues because they are found in the App.xaml.cs file
+		DealOrNoDealPage.xaml.cs: There are 3 instances where IContentControl or IBorder could be used as parameter types.
+								  I chose not to address these issues because they are inaccessable due to their protection types.
+
+	Language Usage Opportunities: 5 items
+		App.xaml.cs: I chose not to address these issues because they are found in the App.xaml.cs file
+		StringManipulator.cs: I chose not to address this issue because I believe inverting the 'if' statement makes the code
+							  more difficult to read.
+		DealOrNoDealPage.xaml.cs: I chose not to address these issues because I believe inverting the 'if' statement makes the 
+								  code more difficult to read.
+		StartSettingsDialog.xaml.cs: I chose not to address this issue because I believe inverting the 'if' statement makes the 
+									 code more difficult to read.
+
+	Potential Code Quality Issues: 2 items
+		StartSettingDialog.xaml.cs: I chose not to address these issues because, although the roundTypes and gameTypes variables
+									are only updates but never used, they are bound to the ComboBox objects found on the dialog
+									so, they are indeed being used and required to be there.
+
+	Redundancies in Symbol Declarations: 1 item
+		App.xaml.cs: I chose not to address this issue because it is found in the App.xaml.cs file
+
+	Other:
+		The IDE is claiming some of my private method name's should begin with an uppercase letter. I disagree, so I didn't
+		address these warnings.
+
+
+How to change game type/round amount:
+	Select options in content dialog at run-time, they change automatically.
+	No need to change any code.
+	Just run the program and it'll be VERY appearant.
